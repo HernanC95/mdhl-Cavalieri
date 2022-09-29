@@ -1,0 +1,275 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/assets/img/design1_image2.jpg);
+  background-size: 400rem 200rem;
+  background-repeat: no-repeat;
+  background-position: -600px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+header {
+  width: 70%;
+  height: 25vw;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+}
+
+main {
+  background-color: rgb(189, 188, 188);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 60%;
+  border: 2px solid rosybrown;
+  border-radius: 100px;
+  padding: 4%;
+  flex-wrap: wrap;
+  margin-bottom: 5vw;
+}
+
+footer {
+  background-color: rosybrown;
+  width: 100%;
+  height: 5vw;
+  color: black;
+  text-align: center;
+  flex: 1;
+  align-self: flex-end;
+}
+
+h1 {
+  background-color: rosybrown;
+  border-radius: 100px;
+  border: 2px solid black;
+  padding: 10px;
+}
+nav {
+  margin-bottom: 20px;
+}
+nav a {
+  margin-top: 10px;
+  display: inline-block;
+  background-color: rosybrown;
+  padding: 10px;
+  color: black;
+  border-radius: 10px;
+  border: 2px solid black;
+  text-decoration: none;
+}
+#logo1 {
+  width: 200px;
+  background-color: aliceblue;
+  border-radius: 20px;
+  border: 5px solid rosybrown;
+}
+.article-index {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.flex-seccion {
+  display: flex;
+  justify-content: center;
+}
+.flex-seccion-contact {
+  display: flex;
+  justify-content: center;
+}
+h3 {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+p {
+  text-align: center;
+}
+.p-contacto {
+  margin: 70px;
+  text-align: center;
+}
+dt {
+  font-weight: bold;
+  font-size: 17px;
+}
+ol {
+  margin-left: 20px;
+}
+.sublistaTitulo {
+  font-size: 14px;
+}
+.sublistaOrdenada {
+  margin-left: 10px;
+  list-style-type: lower-alpha;
+}
+.sublistaDesordenada {
+  padding-left: 40px;
+}
+
+table,
+tr,
+th,
+td {
+  text-align: center;
+  padding: 10px;
+}
+th {
+  font-weight: bolder;
+}
+
+span {
+  font-weight: bolder;
+}
+
+h2 {
+  width: 100%;
+  color: black;
+  background-color: rosybrown;
+  text-align: center;
+  border-radius: 100px;
+  margin-bottom: 10px;
+}
+
+.h2-contacto {
+  display: block;
+}
+article {
+  width: 50%;
+}
+
+figure {
+  display: inline;
+  text-align: center;
+}
+
+#idimg1 {
+  border: 10px solid rosybrown;
+  width: 50%;
+  border-radius: 20px;
+  margin-left: 15px;
+  object-fit: cover;
+}
+#idimg2 {
+  border: 10px solid rosybrown;
+  border-radius: 20px;
+  width: 50%;
+  height: 50%;
+  margin-top: 20px;
+  margin-left: 15px;
+  object-fit: cover;
+}
+#idimg3 {
+  border: 10px solid rosybrown;
+  border-radius: 20px;
+  width: 300px;
+  margin-left: 15px;
+}
+
+.actual {
+  background-color: indianred;
+}
+
+.section-game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.div-gameinf {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+.div-gameinf2 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+caption {
+  text-align: center;
+  text-decoration: underline;
+}
+.main-registration {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+form {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+fieldset {
+  border: none;
+  padding-bottom: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.address {
+  width: 100%;
+}
+
+.address > input {
+  width: 80%;
+}
+.name,
+.birth-gender,
+.city {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.grade > label {
+  margin-left: 15px;
+}
+.closestSchool,
+.position,
+.uniform {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.closestSchool > label,
+.position > label,
+.uniform > label {
+  width: 50%;
+}
+.closestSchool > label > input,
+.position > label > input,
+.uniform > label > input {
+  margin-right: 10px;
+}
+.subtitulo {
+  text-align: justify;
+  width: 100%;
+  margin-bottom: 10px;
+}
+legend {
+  font-weight: bolder;
+}
+
+.permission {
+  display: flex;
+  flex-direction: column;
+}
+.permission > label {
+  padding-top: 10px;
+}
+.permission > label > input {
+  margin-left: 5px;
+}
+.signature {
+  width: 70%;
+}
+.game-date {
+  background-color: rgb(221, 217, 217);
+}
